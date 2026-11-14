@@ -1,0 +1,35 @@
+.build/
+dist/
+.DS_Store
+.swiftpm/
+docs/p125-midi-reference.txt
+
+# Local builds, exports, and hardware captures
+/releases/
+/output/
+/docs/*.log
+/docs/hardware-snapshot.json
+/docs/p125-midi-reference.pdf
+
+# Local secrets and signing material
+.env
+.env.*
+!.env.example
+.direnv/
+.secrets/
+*.key
+*.pem
+*.p8
+*.p12
+*.pfx
+*.keychain
+*.keychain-db
+*.mobileprovision
+*.provisionprofile
+
+# Per-user development state and scratch files
+xcuserdata/
+*.xcuserstate
+/tmp/
+*.tmp
+*.swp
